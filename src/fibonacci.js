@@ -9,9 +9,7 @@ function fibonacci(n) {
   }
 
   // recursive case
-  return fibonacci(n-1) + fibonacci (n-2)
+  return fibonacci(n - 1) + fibonacci(n - 2);
 }
-
-// console.log(fibonacci(0));
 
 module.exports = fibonacci;
